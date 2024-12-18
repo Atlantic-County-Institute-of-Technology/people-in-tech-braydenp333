@@ -1,1 +1,23 @@
 /* Brayden Papaycik, 12.17.24 */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Poppins&display=swap');
+body {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+.header {        
+        font-family: "Charm", serif;
+        font-weight: 700;
+        font-style: bolder;
+        text-decoration-line:underline;
+
+}
+table, th, td {
+    border:2px solid black;
+    border-radius: 4px;
+    padding: 8px;
+    width: 500px;
+
+
+  }
