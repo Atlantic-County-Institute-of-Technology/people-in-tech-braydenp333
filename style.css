@@ -5,19 +5,32 @@ body {
     font-family: "Poppins", serif;
     font-weight: 200;
     font-style: normal;
-  }
-.header {        
-        font-family: "Charm", serif;
-        font-weight: 700;
-        font-style: bolder;
-        text-decoration-line:underline;
-
+    background-image: linear-gradient(rgba(160, 219, 247, 0.315), rgba(211, 160, 253, 0.281));
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding: 0 40%;
+    width:25%;  
+    
+  
+    }
+.header {    
+    background-color: rgb(255, 255, 255); 
+    font-family: "Charm", serif;
+    font-weight: 700;
+    font-style: bolder;
+    text-decoration-line:underline;
+    box-shadow: 4px 4px;
+}
+.text {
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 2px 2px;
+  
 }
 table, th, td {
+    background-color: white;
+    box-shadow: 2px 2px;
     border:2px solid black;
     border-radius: 4px;
     padding: 8px;
     width: 500px;
-
-
   }
